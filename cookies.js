@@ -1,6 +1,6 @@
 // Adapted to es6 from https://www.w3schools.com/js/js_cookies.asp.
 
-export function setCookie(name, value, exdays) {
+export function setCookie(name, value, exdays=1) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   const expires = 'expires=' + d.toUTCString();
