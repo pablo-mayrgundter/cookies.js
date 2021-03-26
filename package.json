@@ -1,6 +1,6 @@
 {
   "name": "@pablo-mayrgundter/cookies.js",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Basic utility to get and set page cookies.",
   "main": "cookies.js",
   "type": "module",
