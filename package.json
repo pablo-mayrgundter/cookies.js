@@ -1,0 +1,25 @@
+{
+  "name": "@pablo-mayrgundter/cookies.js",
+  "version": "1.0.3",
+  "description": "Basic utility to get and set page cookies.",
+  "main": "cookies.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"TODO: add test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablo-mayrgundter/cookies.js.git"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "cookies"
+  ],
+  "author": "Pablo Mayrgundter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablo-mayrgundter/cookies.js/issues"
+  },
+  "homepage": "https://github.com/pablo-mayrgundter/cookies.js#readme"
+}
