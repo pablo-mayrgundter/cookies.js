@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "lint": "eslint",
-    "test": "echo \"TODO: add test\""
+    "test": "$npm_execpath run test:unit",
+    "test:unit": "mocha"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,10 @@
   },
   "homepage": "https://github.com/pablo-mayrgundter/cookies.js#readme",
   "devDependencies": {
-    "eslint": "^8.16.0"
+    "chai": "^4.3.6",
+    "eslint": "^8.16.0",
+    "jsdom": "19.0.0",
+    "jsdom-global": "3.0.2",
+    "mocha": "^10.0.0"
   }
 }
