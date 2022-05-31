@@ -10,13 +10,13 @@ beforeEach(() => {
 
 describe('get cookies', () => {
   it('should return an empty string for a non-existent cookie', () => {
-    expect(getCookie('doesNotExist')).to.be.empty;
+    expect(getCookie('doesNotExist', '')).to.be.empty;
   });
 
   it('should return the value of an existing cookie', () => {
     document.cookie = 'exists=yay!; another=one';
 
-    expect(getCookie('exists')).to.equal('yay!');
+    expect(getCookie('exists', '')).to.equal('yay!');
   });
 });
 
